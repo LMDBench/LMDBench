@@ -1,0 +1,6 @@
+{
+    "model": "gpt",
+    "temperature": 0,
+    "stream": "True",
+    "max_tries": 5
+}

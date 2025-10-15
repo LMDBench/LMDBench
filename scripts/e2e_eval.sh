@@ -1,0 +1,1 @@
+python main.py --operator e2e --impl only --end 120 --out_dir "./result/e2e/"

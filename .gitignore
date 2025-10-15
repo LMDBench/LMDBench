@@ -1,0 +1,5 @@
+/databases
+*.pyc
+.DS_Store
+*.zip
+/result
