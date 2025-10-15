@@ -43,7 +43,6 @@ pip install -r requirements.txt
 ### 2. Prepare Databases
 Download the [databases.zip](https://drive.google.com/uc?export=download&id=1tB2gMT3h92OtzkWr_rHzfJml00fLjiRY) and directly extract it under the project root:
 ```bash
-curl -L 'https://drive.google.com/uc?export=download&id=1tB2gMT3h92OtzkWr_rHzfJml00fLjiRY' -o databases.zip
 unzip databases.zip
 ```
 
