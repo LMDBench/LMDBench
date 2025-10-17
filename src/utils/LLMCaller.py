@@ -14,7 +14,7 @@ class LLMCaller:
             print("Configuration file './src/conf/conf.json' is not found")
         self.model = conf['model']
         self.temperature = float(conf['temperature'])
-        self.stream = bool(conf['stream'])
+        self.stream = conf['stream'].lower() == 'true'
         self.max_tries = int(conf['max_tries'])
 
         self.total_tokens_used = 0  

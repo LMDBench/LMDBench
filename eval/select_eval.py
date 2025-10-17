@@ -235,7 +235,7 @@ def pipeline_select110(args):
                     df = shipment, 
                     depend_on = ['state_x', 'state_y'],
                     thinking = args.thinking)
-    pred = df['cust_name'].drop_duplicates()
+    pred = df[['cust_name']].drop_duplicates()
     return f1_score(truth, pred), op.get_tokens()
 
 # medium

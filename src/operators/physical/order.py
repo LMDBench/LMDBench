@@ -45,7 +45,7 @@ class LLMOnlyOrder(PhysicalOperator):
             print(result)
             result = json_response_postprocess(result)[0]
             result = result['result']
-        new_oreder = pd.DataFrame(result)['index']
+        new_oreder = pd.DataFrame(result)['index'].astype(int)
         df_reordered = df.loc[new_oreder]
         return df_reordered
         
